@@ -21,19 +21,19 @@ After installing these on your machine, you can proceed further to run this proj
 ### git clone this repository and backend repository on your machine
 
 CLONE FONTEND
-git clone https://github.com/Sumit0709/musicPlayerFrontend.git
+`git clone https://github.com/Sumit0709/musicPlayerFrontend.git`
 
 CLONE BACKEND
-git clone https://github.com/Sumit0709/musicPlayerBackend.git
+`git clone https://github.com/Sumit0709/musicPlayerBackend.git`
 
 
 ### install necessary packages
 
 run the below code in FRONTEND
-npm install
+`npm install`
 
 run below code in BACKEND 
-npm install
+`npm install`
 
 ### update environment variable
 
@@ -44,7 +44,7 @@ Make sure that your frontend is pointing to the same port where you are running 
 ### Now you are all set, run backend and frontend and use this app
 
 run below code to start backend in the backend folder
-npm start
+`npm start`
 
 run below code to start frontend in the frontend folder
-npm start
+`npm start`
