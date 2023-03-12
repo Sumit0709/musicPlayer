@@ -1,0 +1,89 @@
+
+.playerContainer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.details{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rotatingContainer{
+    
+   
+    margin: auto;
+    margin-top: 30px;
+}
+.rotatingCover {
+
+    width: 200px;
+    height: 200px;
+    /* height: 300px; */
+
+    /* min-width: 200px;
+    min-height: 200px;
+
+    max-height: 300px;
+    max-width: 300px; */
+
+    border-radius: 50% 50%;
+
+    animation:spin 8s linear infinite;
+}
+
+
+.title{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    /* letter-spacing: 1px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.artist{
+    margin-top: 5px;
+    font-size: 1.1rem;
+    opacity: 0.7;
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    opacity: 0.4;
+}
+
+.elipses{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+@keyframes spin { 100% { transform:rotate(360deg); } }
+
+@media screen and (min-width: 700px) {
+
+    .rotatingCover {
+
+        width: 270px;
+        height: 270px;
+        border-radius: 50% 50%;
+    
+        animation:spin 8s linear infinite;
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+
+    .rotatingCover {
+        
+        width: 300px;
+        height: 300px;
+        border-radius: 50% 50%;
+    
+        animation:spin 8s linear infinite;
+    }
+    
+}

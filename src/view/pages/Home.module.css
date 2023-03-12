@@ -1,0 +1,59 @@
+
+.welcome{
+
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+.title{
+    margin-top: 2px;
+    font-size: 2.4rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.description1{
+    width: 80%;
+    font-size: 1.1rem;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.description2{
+    /* margin-top: 10px; */
+    color: #5c97be;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.description3{
+    color: #a961c5;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.description4{
+    text-align: right;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    /* line-height: 1.5rem; */
+    letter-spacing: 1px;
+}
+
+.loginMessage{
+    margin-top: 100px;
+
+    padding: 10px;
+    background-color: #eee;
+    color: #28282B;
+    text-align: center;
+    font-weight: 700;
+
+    font-size: 1.2rem;
+
+    border-radius: 20px;
+}

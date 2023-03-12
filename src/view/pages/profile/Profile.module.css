@@ -1,0 +1,23 @@
+
+.profileContainer{
+    justify-content: space-between;
+    margin-top: 20px;
+    letter-spacing: 0.7px;
+    font-size: 1.2rem;
+}
+
+.right, .left{
+    text-align: center;
+    justify-content: center;
+    border-color: antiquewhite;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width: 800px){
+    .profileContainer{
+        display: grid;
+        grid-template-columns: calc(100% / 2 - 20px) calc(100% / 2 - 20px);
+    }
+}
