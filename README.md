@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Music Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can upload your songs here and access it everywhere without worrying about your privacy.
 
-## Available Scripts
 
-In the project directory, you can run:
+## How to run this project on your machine
 
-### `npm start`
+### Prerequisite
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Node.js and NPM: You need to have Node.js and npm (Node Package Manager) installed on * your machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* MongoDB: You will also need to have MongoDB installed and running on your machine. 
 
-### `npm test`
+* Text Editor: You will need a text editor to write and edit your code. Some famous text editor Visual Studio Code, Sublime Text, and Atom.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Git: You will need to have Git installed on your machine.
 
-### `npm run build`
+After installing these on your machine, you can proceed further to run this project on your local machine
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### git clone this repository and backend repository on your machine
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CLONE FONTEND
+git clone https://github.com/Sumit0709/musicPlayerFrontend.git
 
-### `npm run eject`
+CLONE BACKEND
+git clone https://github.com/Sumit0709/musicPlayerBackend.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### install necessary packages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+run the below code in FRONTEND
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+run below code in BACKEND 
+npm install
 
-## Learn More
+### update environment variable
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+after you have installed the necessary packages, you can update environment with your own values
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Make sure that your frontend is pointing to the same port where you are running your server
 
-### Code Splitting
+### Now you are all set, run backend and frontend and use this app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+run below code to start backend in the backend folder
+npm start
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+run below code to start frontend in the frontend folder
+npm start
